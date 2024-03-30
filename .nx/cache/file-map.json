@@ -1,0 +1,402 @@
+{
+  "version": "6.0",
+  "nxVersion": "17.1.3",
+  "deps": {
+    "@angular/common": "17.0.8",
+    "@angular/compiler": "17.0.8",
+    "@angular/core": "17.0.8",
+    "@angular/forms": "17.0.8",
+    "@angular/language-service": "17.0.8",
+    "@angular/platform-browser": "17.0.8",
+    "@angular/platform-browser-dynamic": "17.0.8",
+    "@angular/router": "17.0.8",
+    "rxjs": "7.8.1",
+    "tslib": "2.6.2",
+    "zone.js": "0.14.2",
+    "@angular-builders/custom-webpack": "17.0.0",
+    "@angular-builders/jest": "17.0.0",
+    "@angular-devkit/build-angular": "17.0.8",
+    "@angular-eslint/builder": "17.1.1",
+    "@angular-eslint/eslint-plugin": "17.1.1",
+    "@angular-eslint/eslint-plugin-template": "17.1.1",
+    "@angular-eslint/schematics": "17.1.1",
+    "@angular-eslint/template-parser": "17.1.1",
+    "@angular/cli": "17.0.8",
+    "@angular/compiler-cli": "17.0.8",
+    "@ngx-translate/core": "15.0.0",
+    "@ngx-translate/http-loader": "8.0.0",
+    "@playwright/test": "1.40.1",
+    "@types/jest": "29.5.11",
+    "@types/node": "20.10.5",
+    "@typescript-eslint/eslint-plugin": "6.16.0",
+    "@typescript-eslint/parser": "6.16.0",
+    "autoprefixer": "10.4.19",
+    "conventional-changelog-cli": "3.0.0",
+    "electron": "27.2.0",
+    "electron-builder": "24.9.1",
+    "electron-debug": "3.2.0",
+    "electron-reloader": "1.2.3",
+    "electron-store": "8.2.0",
+    "eslint": "8.56.0",
+    "eslint-plugin-import": "2.29.1",
+    "eslint-plugin-jsdoc": "46.9.1",
+    "eslint-plugin-prefer-arrow": "1.2.3",
+    "jest": "29.7.0",
+    "node-polyfill-webpack-plugin": "2.0.1",
+    "npm-run-all": "4.1.5",
+    "playwright": "1.40.1",
+    "postcss": "8.4.38",
+    "tailwindcss": "3.4.3",
+    "ts-node": "10.9.2",
+    "typescript": "5.2.2",
+    "wait-on": "7.2.0",
+    "webdriver-manager": "12.1.9"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {},
+    "nonProjectFiles": [
+      {
+        "file": ".editorconfig",
+        "hash": "2367820248418000589"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "12239757612296565685"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "9970193155624042912"
+      },
+      {
+        "file": ".github/FUNDING.yml",
+        "hash": "7229268904683885376"
+      },
+      {
+        "file": ".github/ISSUE_TEMPLATE/bug_report.md",
+        "hash": "3079020248667023826"
+      },
+      {
+        "file": ".github/ISSUE_TEMPLATE/bug_report.yml",
+        "hash": "13874883897028651555"
+      },
+      {
+        "file": ".github/ISSUE_TEMPLATE/feature_request.md",
+        "hash": "7335114847464643603"
+      },
+      {
+        "file": ".github/ISSUE_TEMPLATE/feature_request.yml",
+        "hash": "6039273582300307650"
+      },
+      {
+        "file": ".github/dependabot.yml",
+        "hash": "9303924045683058664"
+      },
+      {
+        "file": ".github/pull_request_template.md",
+        "hash": "10394605806715982638"
+      },
+      {
+        "file": ".github/stale.yml",
+        "hash": "15129576132719965570"
+      },
+      {
+        "file": ".github/workflows/macos.yml",
+        "hash": "5633952015166059360"
+      },
+      {
+        "file": ".github/workflows/ubuntu.yml",
+        "hash": "10068013290062448692"
+      },
+      {
+        "file": ".github/workflows/windows.yml",
+        "hash": "9146823708887166509"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "7860095344933980550"
+      },
+      {
+        "file": ".node-version",
+        "hash": "5941222784362747233"
+      },
+      {
+        "file": ".npmrc",
+        "hash": "5686153540617024927"
+      },
+      {
+        "file": ".nx/cache/file-map.json",
+        "hash": "5856464922516796028"
+      },
+      {
+        "file": ".nx/cache/lockfile.hash",
+        "hash": "14583504598658812630"
+      },
+      {
+        "file": ".nx/cache/parsed-lock-file.json",
+        "hash": "17433107803547914729"
+      },
+      {
+        "file": ".nx/cache/project-graph.json",
+        "hash": "6915695858597232754"
+      },
+      {
+        "file": ".vscode/launch.json",
+        "hash": "15049192935488866735"
+      },
+      {
+        "file": ".vscode/tasks.json",
+        "hash": "15667204415406646574"
+      },
+      {
+        "file": "CHANGELOG.md",
+        "hash": "7030868281375130045"
+      },
+      {
+        "file": "CODE_OF_CONDUCT.md",
+        "hash": "8171831693866598506"
+      },
+      {
+        "file": "HOW_TO.md",
+        "hash": "9007431955098472499"
+      },
+      {
+        "file": "LICENSE.md",
+        "hash": "10138273213658982169"
+      },
+      {
+        "file": "README.md",
+        "hash": "8002917272544680939"
+      },
+      {
+        "file": "_config.yml",
+        "hash": "11417452505610305000"
+      },
+      {
+        "file": "angular.json",
+        "hash": "1224455221022296768"
+      },
+      {
+        "file": "angular.webpack.js",
+        "hash": "3472764913569430416"
+      },
+      {
+        "file": "app/main.ts",
+        "hash": "11121861726106215271"
+      },
+      {
+        "file": "app/package-lock.json",
+        "hash": "13346757894682478956"
+      },
+      {
+        "file": "app/package.json",
+        "hash": "7784871868574687618"
+      },
+      {
+        "file": "app/yarn.lock",
+        "hash": "15808541056878865631"
+      },
+      {
+        "file": "e2e/main.spec.ts",
+        "hash": "110344786027306757"
+      },
+      {
+        "file": "e2e/playwright.config.ts",
+        "hash": "6377520481677834636"
+      },
+      {
+        "file": "e2e/tsconfig.e2e.json",
+        "hash": "14431388359296357478"
+      },
+      {
+        "file": "electron-builder.json",
+        "hash": "3333108226425469254"
+      },
+      {
+        "file": "jest.config.js",
+        "hash": "9778807870732835602"
+      },
+      {
+        "file": "package.json",
+        "hash": "7571281415913120118"
+      },
+      {
+        "file": "src/app/app-routing.module.ts",
+        "hash": "6227522318877813351"
+      },
+      {
+        "file": "src/app/app.component.html",
+        "hash": "17385897758380840601"
+      },
+      {
+        "file": "src/app/app.component.scss",
+        "hash": "9668393768217340547"
+      },
+      {
+        "file": "src/app/app.component.ts",
+        "hash": "14278554337272773282"
+      },
+      {
+        "file": "src/app/app.module.ts",
+        "hash": "13529073179114653490"
+      },
+      {
+        "file": "src/app/core/services/electron/electron.service.spec.ts",
+        "hash": "12787937054453110478"
+      },
+      {
+        "file": "src/app/core/services/electron/electron.service.ts",
+        "hash": "14516954242643858622"
+      },
+      {
+        "file": "src/app/core/services/index.ts",
+        "hash": "14771000858863597833"
+      },
+      {
+        "file": "src/app/core/services/interfaces.ts",
+        "hash": "9382986486649995846"
+      },
+      {
+        "file": "src/app/core/services/main/main.service.spec.ts",
+        "hash": "7470333853557051888"
+      },
+      {
+        "file": "src/app/core/services/main/main.service.ts",
+        "hash": "6176942070303008943"
+      },
+      {
+        "file": "src/app/home/home-routing.module.ts",
+        "hash": "10820624627332240665"
+      },
+      {
+        "file": "src/app/home/home.component.html",
+        "hash": "7027459748157899400"
+      },
+      {
+        "file": "src/app/home/home.component.scss",
+        "hash": "9668393768217340547"
+      },
+      {
+        "file": "src/app/home/home.component.ts",
+        "hash": "17816707900022777962"
+      },
+      {
+        "file": "src/app/home/home.module.ts",
+        "hash": "6870079135836447306"
+      },
+      {
+        "file": "src/assets/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/assets/background.jpg",
+        "hash": "4929203886049663052"
+      },
+      {
+        "file": "src/assets/i18n/en.json",
+        "hash": "9909847937128338345"
+      },
+      {
+        "file": "src/assets/icons/electron.bmp",
+        "hash": "3053844773012703857"
+      },
+      {
+        "file": "src/assets/icons/favicon.256x256.png",
+        "hash": "7904290075479152880"
+      },
+      {
+        "file": "src/assets/icons/favicon.512x512.png",
+        "hash": "2856340912632048983"
+      },
+      {
+        "file": "src/assets/icons/favicon.icns",
+        "hash": "10199816588472826846"
+      },
+      {
+        "file": "src/assets/icons/favicon.ico",
+        "hash": "15965584656672211501"
+      },
+      {
+        "file": "src/assets/icons/favicon.png",
+        "hash": "7904290075479152880"
+      },
+      {
+        "file": "src/environments/environment.dev.ts",
+        "hash": "914380101672657316"
+      },
+      {
+        "file": "src/environments/environment.prod.ts",
+        "hash": "7559209099189803142"
+      },
+      {
+        "file": "src/environments/environment.ts",
+        "hash": "1080192302587670697"
+      },
+      {
+        "file": "src/environments/environment.web.prod.ts",
+        "hash": "14531858920714875884"
+      },
+      {
+        "file": "src/environments/environment.web.ts",
+        "hash": "7851367063225144331"
+      },
+      {
+        "file": "src/favicon.ico",
+        "hash": "3464744996580215640"
+      },
+      {
+        "file": "src/index.html",
+        "hash": "6171184099106487196"
+      },
+      {
+        "file": "src/main.ts",
+        "hash": "7449983393122515705"
+      },
+      {
+        "file": "src/polyfills-test.ts",
+        "hash": "11803705300934933554"
+      },
+      {
+        "file": "src/polyfills.ts",
+        "hash": "9813229559833194715"
+      },
+      {
+        "file": "src/styles.scss",
+        "hash": "12459233914134097167"
+      },
+      {
+        "file": "src/tsconfig.app.json",
+        "hash": "4782148107413065442"
+      },
+      {
+        "file": "src/tsconfig.spec.json",
+        "hash": "3490411784118392587"
+      },
+      {
+        "file": "src/typings.d.ts",
+        "hash": "14564056064298660677"
+      },
+      {
+        "file": "tailwind.config.js",
+        "hash": "1953686720069507907"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "9331961391208796971"
+      },
+      {
+        "file": "tsconfig.serve.json",
+        "hash": "7676577356659671342"
+      },
+      {
+        "file": "yarn-error.log",
+        "hash": "2625425703812327043"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "8203138917316448842"
+      }
+    ]
+  }
+}
